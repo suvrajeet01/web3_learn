@@ -608,6 +608,57 @@ https://nextjs.org/docs/messages/module-not-found
 
 
 
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\Whitelist-Dapp\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 3.8s (165 modules)
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 2s (194 modules)
+wait  - compiling...
+event - compiled client and server successfully in 390 ms (194 modules)
+wait  - compiling...
+event - compiled client and server successfully in 248 ms (194 modules)
+wait  - compiling...
+event - compiled client and server successfully in 477 ms (194 modules)
+wait  - compiling...
+error - ./pages/index.js:6:0
+Module not found: Can't resolve '../constants'
+  4 | import { providers, Contract } from "ethers";
+  5 | import { useEffect, useRef, useState } from "react";
+> 6 | import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
+  7 |
+  8 | export default function Home() {
+  9 |   // walletConnected keep track of whether the user's wallet is connected or not
+
+https://nextjs.org/docs/messages/module-not-found
+wait  - compiling...
+error - ./pages/index.js:6:0
+Module not found: Can't resolve '../constants'
+  4 | import { providers, Contract } from "ethers";
+  5 | import { useEffect, useRef, useState } from "react";
+> 6 | import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
+  7 |
+  8 | export default function Home() {
+  9 |   // walletConnected keep track of whether the user's wallet is connected or not
+
+https://nextjs.org/docs/messages/module-not-found
+wait  - compiling...
+event - compiled client and server successfully in 489 ms (322 modules)
+wait  - compiling...
+event - compiled client and server successfully in 400 ms (322 modules)
+Terminate batch job (Y/N)? y
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\Whitelist-Dapp\my-app>cls
+
+
 
 
 
@@ -654,3 +705,289 @@ added 45 packages, and audited 122 packages in 15s
 
 found 0 vulnerabilities
 PS D:\web3\web3_learn\learn-web3.dao.io\sophomore\Whitelist-Dapp\my-app>
+
+
+
+
+
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\Whitelist-Dapp\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 2.6s (165 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 1434 ms (322 modules)
+Terminate batch job (Y/N)? y
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\Whitelist-Dapp\my-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\preda>d:\
+'d:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\preda>d:
+
+D:\>cd web3\web3_learn\
+
+D:\web3\web3_learn>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        learn-web3.dao.io/sophomore/
+        metamask.seed.test1234.sjb.backup.photos.predator.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\web3_learn>git add .
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/contracts/Lock.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/hardhat.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/scripts/deploy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/test/Lock.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/jsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/next.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/_app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/_document.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/api/hello.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/styles/Home.module.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/styles/globals.css.
+The file will have its original line endings in your working directory
+
+D:\web3\web3_learn>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/.gitignore
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/README.md
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/contracts/Lock.sol
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/contracts/Whitelist.sol
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/hardhat.config.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/package-lock.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/package.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/scripts/deploy.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/test/Lock.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/.gitignore
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/README.md
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/constants/index.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/jsconfig.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/next.config.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/package-lock.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/package.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/_app.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/_document.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/api/hello.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/index.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/crypto-devs.svg
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/favicon.ico
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/next.svg
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/thirteen.svg
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/vercel.svg
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/styles/Home.module.css
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/styles/globals.css
+        new file:   learn-web3.dao.io/sophomore/terminal-commands.txt
+        new file:   metamask.seed.test1234.sjb.backup.photos.predator.csv
+
+
+D:\web3\web3_learn>git commit metamask.seed.test1234.sjb.backup.photos.predator.csv -m "test.metamask"
+[trunk ac9c364] test.metamask
+ 1 file changed, 7 insertions(+)
+ create mode 100644 metamask.seed.test1234.sjb.backup.photos.predator.csv
+
+D:\web3\web3_learn>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/.gitignore
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/README.md
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/contracts/Lock.sol
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/contracts/Whitelist.sol
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/hardhat.config.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/package-lock.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/package.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/scripts/deploy.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/test/Lock.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/.gitignore
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/README.md
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/constants/index.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/jsconfig.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/next.config.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/package-lock.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/package.json
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/_app.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/_document.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/api/hello.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/index.js
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/crypto-devs.svg
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/favicon.ico
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/next.svg
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/thirteen.svg
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/vercel.svg
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/styles/Home.module.css
+        new file:   learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/styles/globals.css
+        new file:   learn-web3.dao.io/sophomore/terminal-commands.txt
+
+
+D:\web3\web3_learn>git commit -m "whitelist-dapp"
+[trunk 439e370] whitelist-dapp
+ 28 files changed, 16833 insertions(+)
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/.gitignore
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/README.md
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/contracts/Lock.sol
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/contracts/Whitelist.sol
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/hardhat.config.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/package-lock.json
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/package.json
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/scripts/deploy.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/hardhat-tutorial/test/Lock.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/.gitignore
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/README.md
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/constants/index.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/jsconfig.json
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/next.config.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/package-lock.json
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/package.json
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/_app.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/_document.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/api/hello.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/pages/index.js
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/crypto-devs.svg
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/favicon.ico
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/next.svg
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/thirteen.svg
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/public/vercel.svg
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/styles/Home.module.css
+ create mode 100644 learn-web3.dao.io/sophomore/Whitelist-Dapp/my-app/styles/globals.css
+ create mode 100644 learn-web3.dao.io/sophomore/terminal-commands.txt
+
+D:\web3\web3_learn>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\web3\web3_learn>git push
+Enumerating objects: 48, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (42/42), done.
+Writing objects: 100% (46/46), 152.18 KiB | 5.25 MiB/s, done.
+Total 46 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/suvrajeet01/web3_learn.git
+   de45214..439e370  trunk -> trunk
+
+D:\web3\web3_learn>
