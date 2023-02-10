@@ -1,0 +1,1791 @@
+PS D:\web3\learn-web3.dao.io\freshman\nft1> pwd
+
+Path
+----
+D:\web3\learn-web3.dao.io\freshman\nft1
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1> git clone https://github.com/suvrajeet01/lw3.nft1.git
+Cloning into 'lw3.nft1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+PS D:\web3\learn-web3.dao.io\freshman\nft1> git status
+warning: could not open directory 'Recovery/Logs/': Permission denied
+warning: could not open directory 'System Volume Information/': Permission denied
+warning: could not open directory 'WindowsApps/': Permission denied
+On branch trunk
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ../../../../6th sem/18CSE035.txt
+        new file:   ../../../../6th sem/Class routine  6th -B1.xlsx
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B).html
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/947777316-lcs_client_bin.js.download
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/api.js.download   
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/app.html
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/cb=gapi(1).loaded_0
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/cb=gapi.loaded_0  
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/cb=gapi.loaded_1  
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/cb=gapi.loaded_2  
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/client.html       
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/css
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/css(1)
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/css(2)
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/dark_create_class_arrow.svg
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/googleapis.proxy.js.download
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/icon
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/lazy.min.js.download
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/m=_b,_tp
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/m=base
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/ok5NYsbUJz7rvaMIS3vXzjmRMy-iaFhY4y0YhYi-ySs.js.download
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/photo(1).jpg      
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/photo.jpg
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/proxy(1).html     
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/proxy.html        
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/rs=AA2YrTtlkmhqEx9CuPzOCQfBhsNqzgdKAw
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/rs=AA2YrTuZTrLZ4SHM1gfcCFFxdZIZ-5oj0Q
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/rs=AK3ymSXG9RoGtZn0YvGOPOpJhypl2NXGiw
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/thumbnail
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/unnamed(1).jpg    
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/unnamed(2).jpg    
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/unnamed.jpg       
+        new file:   ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/unnamed.png       
+        new file:   ../../../../6th sem/canvas .instructure login credentials.txt
+        new file:   ../../../../6th sem/faculty tagging even 2020-2021.xlsx
+        new file:   ../../../../6th sem/research methodology/1. Research Methodology_Arunangshu Giri & Debasish Biswas.pdf
+        new file:   ../../../../6th sem/research methodology/2. research methodology methods and techniques by C.R.Kothari.pdf
+        new file:   ../../../../mega downloads/ongoing/projects/personael_python/proj_data-extraction/.idea/proj_data-extraction.iml
+        new file:   ../../../../mega downloads/ongoing/projects/personael_python/python programming_a modular approach/.idea/python programming_a modular approach.iml
+        new file:   ../../../../vhd1.vhd
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../../../../6th sem/18CSE035.txt
+        deleted:    ../../../../6th sem/Class routine  6th -B1.xlsx
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B).html
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/947777316-lcs_client_bin.js.download
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/api.js.download   
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/app.html
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/cb=gapi(1).loaded_0
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/cb=gapi.loaded_0  
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/cb=gapi.loaded_1  
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/cb=gapi.loaded_2  
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/client.html       
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/css
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/css(1)
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/css(2)
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/dark_create_class_arrow.svg
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/googleapis.proxy.js.download
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/icon
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/lazy.min.js.download
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/m=_b,_tp
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/m=base
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/ok5NYsbUJz7rvaMIS3vXzjmRMy-iaFhY4y0YhYi-ySs.js.download
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/photo(1).jpg      
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/photo.jpg
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/proxy(1).html     
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/proxy.html        
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/rs=AA2YrTtlkmhqEx9CuPzOCQfBhsNqzgdKAw
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/rs=AA2YrTuZTrLZ4SHM1gfcCFFxdZIZ-5oj0Q
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/rs=AK3ymSXG9RoGtZn0YvGOPOpJhypl2NXGiw
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/thumbnail
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/unnamed(1).jpg    
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/unnamed(2).jpg    
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/unnamed.jpg
+        deleted:    ../../../../6th sem/Syllabus of Data Warehousing and Data Mining (PEC-IT602B)_files/unnamed.png       
+        deleted:    ../../../../6th sem/canvas .instructure login credentials.txt
+        deleted:    ../../../../6th sem/faculty tagging even 2020-2021.xlsx
+        deleted:    ../../../../6th sem/research methodology/1. Research Methodology_Arunangshu Giri & Debasish Biswas.pdf
+        deleted:    ../../../../6th sem/research methodology/2. research methodology methods and techniques by C.R.Kothari.pdf
+        deleted:    ../../../../vhd1.vhd
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../../../$RECYCLE.BIN/
+        ../../../../.GamingRoot
+        ../../../../0day/
+        ../../../../18-CSE-035.zip
+        ../../../../18-CSE-035/
+        ../../../../FDM Downloads/
+        ../../../../PacktWorkshops/
+        ../../../../Program Files/
+        ../../../../Recovery/
+        ../../../../Users/
+        ../../../../btc/
+        ../../../../chrome.incognito-history.txt
+        ../../../../desktop.ini
+        ../../../../drive.data+takeouts/
+        ../../../../exported passwords/
+        ../../../../google X H2s_Cloud Digital Leader/
+        ../../../../leni.txt
+        ../../../../lg data before reset/
+        ../../../../mega downloads/ongoing/DaVinci Training/
+        ../../../../mega downloads/ongoing/DigitalVidya/
+        ../../../../mega downloads/ongoing/packt/
+        ../../../../mega downloads/ongoing/projects/personael_python/proj_data-extraction/.idea/.gitignore
+        ../../../../mega downloads/ongoing/projects/personael_python/proj_data-extraction/.idea/inspectionProfiles/       
+        ../../../../mega downloads/ongoing/projects/personael_python/proj_data-extraction/.idea/misc.xml
+        ../../../../mega downloads/ongoing/projects/personael_python/proj_data-extraction/.idea/modules.xml
+        ../../../../mega downloads/ongoing/projects/personael_python/proj_data-extraction/chrome_history.json
+        ../../../../mega downloads/ongoing/projects/personael_python/proj_data-extraction/links-associated.html
+        ../../../../mega downloads/ongoing/projects/personael_python/proj_data-extraction/tweeter.py
+        ../../../../mega downloads/ongoing/projects/personael_python/python programming_a modular approach/.idea/.gitignore
+        ../../../../mega downloads/ongoing/projects/personael_python/python programming_a modular approach/.idea/inspectionProfiles/
+        ../../../../mega downloads/ongoing/projects/personael_python/python programming_a modular approach/.idea/misc.xml 
+        ../../../../mega downloads/ongoing/projects/personael_python/python programming_a modular approach/.idea/modules.xml
+        ../../../../mega downloads/ongoing/projects/personael_python/python programming_a modular approach/coding.py      
+        ../../../../mega downloads/ongoing/projects/personael_python/python programming_a modular approach/venv/
+        ../../../../mit ocw/
+        ../../../../predator/
+        ../../../../python_linuxworld.txt
+        ../../../../reflect macrium pc backup image/
+        ../../../../unit-masters/
+        ../../../../upload to a new mega account/
+        ../../../../user files/
+        ../../../
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1> pwd
+
+Path
+----
+D:\web3\learn-web3.dao.io\freshman\nft1
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1> ls 
+
+
+    Directory: D:\web3\learn-web3.dao.io\freshman\nft1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11-01-2023     04:32                lw3.nft1
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1> cd .\lw3.nft1\
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        terminal commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> mkdir nft-tut
+
+
+    Directory: D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11-01-2023     04:34                nft-tut
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        terminal commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> npm init --yes
+Wrote to D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\package.json:
+
+{
+  "name": "lw3.nft1",
+  "version": "1.0.0",
+  "description": "simple NFT using ERC-721",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suvrajeet01/lw3.nft1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suvrajeet01/lw3.nft1/issues"
+  },
+  "homepage": "https://github.com/suvrajeet01/lw3.nft1#readme"
+}
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142       
+
+added 700 packages, and audited 701 packages in 2m
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> npm audit fix
+
+up to date, audited 701 packages in 4s
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+fix available via `npm audit fix --force`
+Will install @nomicfoundation/hardhat-toolbox@1.0.2, which is a breaking change
+node_modules/eth-gas-reporter/node_modules/flat
+node_modules/solidity-coverage/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+  node_modules/solidity-coverage/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+    node_modules/solidity-coverage/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+          @nomicfoundation/hardhat-toolbox  *
+          Depends on vulnerable versions of hardhat-gas-reporter
+          Depends on vulnerable versions of solidity-coverage
+          node_modules/@nomicfoundation/hardhat-toolbox
+      solidity-coverage  >=0.8.0-beta.0
+      Depends on vulnerable versions of mocha
+      node_modules/solidity-coverage
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+fix available via `npm audit fix --force`
+Will install @nomicfoundation/hardhat-toolbox@1.0.2, which is a breaking change
+node_modules/eth-gas-reporter/node_modules/minimatch
+node_modules/solidity-coverage/node_modules/minimatch
+
+8 vulnerabilities (5 high, 3 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating @nomicfoundation/hardhat-toolbox to 1.0.2, which is a SemVer major change.
+npm WARN deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multicodec@1.0.4: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@0.7.0: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multibase@0.6.1: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@0.5.7: This module has been superseded by the multiformats module
+npm WARN deprecated cids@0.7.5: This module has been superseded by the multiformats module
+
+added 287 packages, removed 36 packages, changed 2 packages, and audited 952 packages in 3m
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+debug  <3.1.0
+debug Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+No fix available
+node_modules/body-parser/node_modules/debug
+node_modules/express/node_modules/debug
+node_modules/finalhandler/node_modules/debug
+node_modules/send/node_modules/debug
+node_modules/websocket/node_modules/debug
+  body-parser  >=1.12.0
+  Depends on vulnerable versions of debug
+  node_modules/body-parser
+    express  >=3.4.5
+    Depends on vulnerable versions of body-parser
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of finalhandler
+    Depends on vulnerable versions of send
+    Depends on vulnerable versions of serve-static
+    node_modules/express
+      servify  *
+      Depends on vulnerable versions of body-parser
+      Depends on vulnerable versions of express
+      node_modules/servify
+        eth-lib  0.1.24 - 0.1.29
+        Depends on vulnerable versions of servify
+        node_modules/eth-lib
+          swarm-js  >=0.1.36
+          Depends on vulnerable versions of eth-lib
+          node_modules/swarm-js
+            web3-bzz  *
+            Depends on vulnerable versions of got
+            Depends on vulnerable versions of swarm-js
+            node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+            node_modules/web3-bzz
+              web3  1.0.0-beta.1 - 3.0.0-rc.5
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-core
+              Depends on vulnerable versions of web3-eth
+              Depends on vulnerable versions of web3-eth-personal
+              Depends on vulnerable versions of web3-net
+              Depends on vulnerable versions of web3-shh
+              node_modules/@truffle/interface-adapter/node_modules/web3
+              node_modules/web3
+                @truffle/interface-adapter  *
+                Depends on vulnerable versions of web3
+                node_modules/@truffle/interface-adapter
+                  @truffle/provider  *
+                  Depends on vulnerable versions of @truffle/interface-adapter
+                  Depends on vulnerable versions of web3
+                  node_modules/@truffle/provider
+                    solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+                    Depends on vulnerable versions of @truffle/provider
+                    node_modules/solidity-coverage
+                      @nomicfoundation/hardhat-toolbox  *
+                      Depends on vulnerable versions of hardhat-gas-reporter
+                      Depends on vulnerable versions of solidity-coverage
+                      node_modules/@nomicfoundation/hardhat-toolbox
+  finalhandler  *
+  Depends on vulnerable versions of debug
+  node_modules/finalhandler
+  send  0.3.0 - 0.18.0
+  Depends on vulnerable versions of debug
+  node_modules/send
+    serve-static  1.1.0 - 1.15.0
+    Depends on vulnerable versions of send
+    node_modules/serve-static
+  websocket  >=1.0.11
+  Depends on vulnerable versions of debug
+  node_modules/websocket
+    web3-providers-ws  <=3.0.0-rc.5
+    Depends on vulnerable versions of websocket
+    node_modules/@truffle/interface-adapter/node_modules/web3-providers-ws
+    node_modules/web3-providers-ws
+      web3-core-requestmanager  <=3.0.0-rc.5
+      Depends on vulnerable versions of web3-providers-ws
+      node_modules/@truffle/interface-adapter/node_modules/web3-core-requestmanager
+      node_modules/web3-core-requestmanager
+        web3-core  <=3.0.0-rc.5
+        Depends on vulnerable versions of web3-core-requestmanager
+        node_modules/@truffle/interface-adapter/node_modules/web3-core
+        node_modules/web3-core
+          web3-eth  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-eth-accounts
+          Depends on vulnerable versions of web3-eth-contract
+          Depends on vulnerable versions of web3-eth-ens
+          Depends on vulnerable versions of web3-eth-personal
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth
+          node_modules/web3-eth
+          web3-eth-accounts  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-accounts
+          node_modules/web3-eth-accounts
+          web3-eth-contract  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-contract
+          node_modules/web3-eth-contract
+            web3-eth-ens  <=3.0.0-rc.5
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-eth-contract
+            node_modules/@truffle/interface-adapter/node_modules/web3-eth-ens
+            node_modules/web3-eth-ens
+          web3-eth-personal  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-personal
+          node_modules/web3-eth-personal
+          web3-net  1.2.0 - 3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-net
+          node_modules/web3-net
+            web3-shh  <=1.8.1
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-net
+            node_modules/@truffle/interface-adapter/node_modules/web3-shh
+            node_modules/web3-shh
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+
+got  <11.8.5
+Severity: moderate
+Got allows a redirect to a UNIX socket - https://github.com/advisories/GHSA-pfrx-2q88-qq97
+No fix available
+node_modules/got
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+No fix available
+node_modules/eth-gas-reporter/node_modules/minimatch
+
+33 vulnerabilities (21 low, 5 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> npm audit fix
+
+up to date, audited 952 packages in 2m
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+debug  <3.1.0
+debug Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+No fix available
+node_modules/body-parser/node_modules/debug
+node_modules/express/node_modules/debug
+node_modules/finalhandler/node_modules/debug
+node_modules/send/node_modules/debug
+node_modules/websocket/node_modules/debug
+  body-parser  >=1.12.0
+  Depends on vulnerable versions of debug
+  node_modules/body-parser
+    express  >=3.4.5
+    Depends on vulnerable versions of body-parser
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of finalhandler
+    Depends on vulnerable versions of send
+    Depends on vulnerable versions of serve-static
+    node_modules/express
+      servify  *
+      Depends on vulnerable versions of body-parser
+      Depends on vulnerable versions of express
+      node_modules/servify
+        eth-lib  0.1.24 - 0.1.29
+        Depends on vulnerable versions of servify
+        node_modules/eth-lib
+          swarm-js  >=0.1.36
+          Depends on vulnerable versions of eth-lib
+          node_modules/swarm-js
+            web3-bzz  *
+            Depends on vulnerable versions of got
+            Depends on vulnerable versions of swarm-js
+            node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+            node_modules/web3-bzz
+              web3  1.0.0-beta.1 - 3.0.0-rc.5
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-core
+              Depends on vulnerable versions of web3-eth
+              Depends on vulnerable versions of web3-eth-personal
+              Depends on vulnerable versions of web3-net
+              Depends on vulnerable versions of web3-shh
+              node_modules/@truffle/interface-adapter/node_modules/web3
+              node_modules/web3
+                @truffle/interface-adapter  *
+                Depends on vulnerable versions of web3
+                node_modules/@truffle/interface-adapter
+                  @truffle/provider  *
+                  Depends on vulnerable versions of @truffle/interface-adapter
+                  Depends on vulnerable versions of web3
+                  node_modules/@truffle/provider
+                    solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+                    Depends on vulnerable versions of @truffle/provider
+                    node_modules/solidity-coverage
+                      @nomicfoundation/hardhat-toolbox  *
+                      Depends on vulnerable versions of hardhat-gas-reporter
+                      Depends on vulnerable versions of solidity-coverage
+                      node_modules/@nomicfoundation/hardhat-toolbox
+  finalhandler  *
+  Depends on vulnerable versions of debug
+  node_modules/finalhandler
+  send  0.3.0 - 0.18.0
+  Depends on vulnerable versions of debug
+  node_modules/send
+    serve-static  1.1.0 - 1.15.0
+    Depends on vulnerable versions of send
+    node_modules/serve-static
+  websocket  >=1.0.11
+  Depends on vulnerable versions of debug
+  node_modules/websocket
+    web3-providers-ws  <=3.0.0-rc.5
+    Depends on vulnerable versions of websocket
+    node_modules/@truffle/interface-adapter/node_modules/web3-providers-ws
+    node_modules/web3-providers-ws
+      web3-core-requestmanager  <=3.0.0-rc.5
+      Depends on vulnerable versions of web3-providers-ws
+      node_modules/@truffle/interface-adapter/node_modules/web3-core-requestmanager
+      node_modules/web3-core-requestmanager
+        web3-core  <=3.0.0-rc.5
+        Depends on vulnerable versions of web3-core-requestmanager
+        node_modules/@truffle/interface-adapter/node_modules/web3-core
+        node_modules/web3-core
+          web3-eth  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-eth-accounts
+          Depends on vulnerable versions of web3-eth-contract
+          Depends on vulnerable versions of web3-eth-ens
+          Depends on vulnerable versions of web3-eth-personal
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth
+          node_modules/web3-eth
+          web3-eth-accounts  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-accounts
+          node_modules/web3-eth-accounts
+          web3-eth-contract  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-contract
+          node_modules/web3-eth-contract
+            web3-eth-ens  <=3.0.0-rc.5
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-eth-contract
+            node_modules/@truffle/interface-adapter/node_modules/web3-eth-ens
+            node_modules/web3-eth-ens
+          web3-eth-personal  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-personal
+          node_modules/web3-eth-personal
+          web3-net  1.2.0 - 3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-net
+          node_modules/web3-net
+            web3-shh  <=1.8.1
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-net
+            node_modules/@truffle/interface-adapter/node_modules/web3-shh
+            node_modules/web3-shh
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+
+got  <11.8.5
+Severity: moderate
+Got allows a redirect to a UNIX socket - https://github.com/advisories/GHSA-pfrx-2q88-qq97
+No fix available
+node_modules/got
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+No fix available
+node_modules/eth-gas-reporter/node_modules/minimatch
+
+33 vulnerabilities (21 low, 5 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> npx hardhat
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+Welcome to Hardhat v2.12.5
+
+√ What do you want to do? · Create a JavaScript project
+× Hardhat project root: · D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> ls
+
+
+    Directory: D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11-01-2023     04:54                nft-tut
+-a----        11-01-2023     04:32             38 README.md
+-a----        11-01-2023     04:31              0 terminal commands.txt
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> cd .\nft-tut\
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npx hardhat
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+Welcome to Hardhat v2.12.5
+
+√ What do you want to do? · Create a JavaScript project
+√ Hardhat project root: · D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut
+√ Do you want to add a .gitignore? (Y/n) · y
+
+You need to install these dependencies to run the sample project:
+  npm install --save-dev "hardhat@^2.12.5" "@nomicfoundation/hardhat-toolbox@^2.0.0"
+
+Project created
+
+See the README.md file for some example tasks you can run
+
+Give Hardhat a star on Github if you're enjoying it!
+
+     https://github.com/NomicFoundation/hardhat
+
+Please take a moment to complete the 2022 Solidity Survey: https://hardhat.org/solidity-survey-2022
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut>
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npm install @openzeppelin/contracts
+
+added 1 package, and audited 953 packages in 45s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+33 vulnerabilities (21 low, 5 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npm audit fix
+
+up to date, audited 953 packages in 60s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+debug  <3.1.0
+debug Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+No fix available
+node_modules/body-parser/node_modules/debug
+node_modules/express/node_modules/debug
+node_modules/finalhandler/node_modules/debug
+node_modules/send/node_modules/debug
+node_modules/websocket/node_modules/debug
+  body-parser  >=1.12.0
+  Depends on vulnerable versions of debug
+  node_modules/body-parser
+    express  >=3.4.5
+    Depends on vulnerable versions of body-parser
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of finalhandler
+    Depends on vulnerable versions of send
+    Depends on vulnerable versions of serve-static
+    node_modules/express
+      servify  *
+      Depends on vulnerable versions of body-parser
+      Depends on vulnerable versions of express
+      node_modules/servify
+        eth-lib  0.1.24 - 0.1.29
+        Depends on vulnerable versions of servify
+        node_modules/eth-lib
+          swarm-js  >=0.1.36
+          Depends on vulnerable versions of eth-lib
+          node_modules/swarm-js
+            web3-bzz  *
+            Depends on vulnerable versions of got
+            Depends on vulnerable versions of swarm-js
+            node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+            node_modules/web3-bzz
+              web3  1.0.0-beta.1 - 3.0.0-rc.5
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-core
+              Depends on vulnerable versions of web3-eth
+              Depends on vulnerable versions of web3-eth-personal
+              Depends on vulnerable versions of web3-net
+              Depends on vulnerable versions of web3-shh
+              node_modules/@truffle/interface-adapter/node_modules/web3
+              node_modules/web3
+                @truffle/interface-adapter  *
+                Depends on vulnerable versions of web3
+                node_modules/@truffle/interface-adapter
+                  @truffle/provider  *
+                  Depends on vulnerable versions of @truffle/interface-adapter
+                  Depends on vulnerable versions of web3
+                  node_modules/@truffle/provider
+                    solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+                    Depends on vulnerable versions of @truffle/provider
+                    node_modules/solidity-coverage
+                      @nomicfoundation/hardhat-toolbox  *
+                      Depends on vulnerable versions of hardhat-gas-reporter
+                      Depends on vulnerable versions of solidity-coverage
+                      node_modules/@nomicfoundation/hardhat-toolbox
+  finalhandler  *
+  Depends on vulnerable versions of debug
+  node_modules/finalhandler
+  send  0.3.0 - 0.18.0
+  Depends on vulnerable versions of debug
+  node_modules/send
+    serve-static  1.1.0 - 1.15.0
+    Depends on vulnerable versions of send
+    node_modules/serve-static
+  websocket  >=1.0.11
+  Depends on vulnerable versions of debug
+  node_modules/websocket
+    web3-providers-ws  <=3.0.0-rc.5
+    Depends on vulnerable versions of websocket
+    node_modules/@truffle/interface-adapter/node_modules/web3-providers-ws
+    node_modules/web3-providers-ws
+      web3-core-requestmanager  <=3.0.0-rc.5
+      Depends on vulnerable versions of web3-providers-ws
+      node_modules/@truffle/interface-adapter/node_modules/web3-core-requestmanager
+      node_modules/web3-core-requestmanager
+        web3-core  <=3.0.0-rc.5
+        Depends on vulnerable versions of web3-core-requestmanager
+        node_modules/@truffle/interface-adapter/node_modules/web3-core
+        node_modules/web3-core
+          web3-eth  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-eth-accounts
+          Depends on vulnerable versions of web3-eth-contract
+          Depends on vulnerable versions of web3-eth-ens
+          Depends on vulnerable versions of web3-eth-personal
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth
+          node_modules/web3-eth
+          web3-eth-accounts  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-accounts
+          node_modules/web3-eth-accounts
+          web3-eth-contract  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-contract
+          node_modules/web3-eth-contract
+            web3-eth-ens  <=3.0.0-rc.5
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-eth-contract
+            node_modules/@truffle/interface-adapter/node_modules/web3-eth-ens
+            node_modules/web3-eth-ens
+          web3-eth-personal  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-personal
+          node_modules/web3-eth-personal
+          web3-net  1.2.0 - 3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-net
+          node_modules/web3-net
+            web3-shh  <=1.8.1
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-net
+            node_modules/@truffle/interface-adapter/node_modules/web3-shh
+            node_modules/web3-shh
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+
+got  <11.8.5
+Severity: moderate
+Got allows a redirect to a UNIX socket - https://github.com/advisories/GHSA-pfrx-2q88-qq97
+No fix available
+node_modules/got
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+No fix available
+node_modules/eth-gas-reporter/node_modules/minimatch
+
+33 vulnerabilities (21 low, 5 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut>clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npm install dotenv
+
+up to date, audited 954 packages in 3s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+33 vulnerabilities (21 low, 5 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> ^C
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npm audit
+# npm audit report
+
+debug  <3.1.0
+debug Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+No fix available
+node_modules/body-parser/node_modules/debug
+node_modules/express/node_modules/debug
+node_modules/finalhandler/node_modules/debug
+node_modules/send/node_modules/debug
+node_modules/websocket/node_modules/debug
+  body-parser  >=1.12.0
+  Depends on vulnerable versions of debug
+  node_modules/body-parser
+    express  >=3.4.5
+    Depends on vulnerable versions of body-parser
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of finalhandler
+    Depends on vulnerable versions of send
+    Depends on vulnerable versions of serve-static
+    node_modules/express
+      servify  *
+      Depends on vulnerable versions of body-parser
+      Depends on vulnerable versions of express
+      node_modules/servify
+        eth-lib  0.1.24 - 0.1.29
+        Depends on vulnerable versions of servify
+        node_modules/eth-lib
+          swarm-js  >=0.1.36
+          Depends on vulnerable versions of eth-lib
+          node_modules/swarm-js
+            web3-bzz  *
+            Depends on vulnerable versions of got
+            Depends on vulnerable versions of swarm-js
+            node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+            node_modules/web3-bzz
+              web3  1.0.0-beta.1 - 3.0.0-rc.5
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-core
+              Depends on vulnerable versions of web3-eth
+              Depends on vulnerable versions of web3-eth-personal
+              Depends on vulnerable versions of web3-net
+              Depends on vulnerable versions of web3-shh
+              node_modules/@truffle/interface-adapter/node_modules/web3
+              node_modules/web3
+                @truffle/interface-adapter  *
+                Depends on vulnerable versions of web3
+                node_modules/@truffle/interface-adapter
+                  @truffle/provider  *
+                  Depends on vulnerable versions of @truffle/interface-adapter
+                  Depends on vulnerable versions of web3
+                  node_modules/@truffle/provider
+                    solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+                    Depends on vulnerable versions of @truffle/provider
+                    node_modules/solidity-coverage
+                      @nomicfoundation/hardhat-toolbox  *
+                      Depends on vulnerable versions of hardhat-gas-reporter
+                      Depends on vulnerable versions of solidity-coverage
+                      node_modules/@nomicfoundation/hardhat-toolbox
+  finalhandler  *
+  Depends on vulnerable versions of debug
+  node_modules/finalhandler
+  send  0.3.0 - 0.18.0
+  Depends on vulnerable versions of debug
+  node_modules/send
+    serve-static  1.1.0 - 1.15.0
+    Depends on vulnerable versions of send
+    node_modules/serve-static
+  websocket  >=1.0.11
+  Depends on vulnerable versions of debug
+  node_modules/websocket
+    web3-providers-ws  <=3.0.0-rc.5
+    Depends on vulnerable versions of websocket
+    node_modules/@truffle/interface-adapter/node_modules/web3-providers-ws
+    node_modules/web3-providers-ws
+      web3-core-requestmanager  <=3.0.0-rc.5
+      Depends on vulnerable versions of web3-providers-ws
+      node_modules/@truffle/interface-adapter/node_modules/web3-core-requestmanager
+      node_modules/web3-core-requestmanager
+        web3-core  <=3.0.0-rc.5
+        Depends on vulnerable versions of web3-core-requestmanager
+        node_modules/@truffle/interface-adapter/node_modules/web3-core
+        node_modules/web3-core
+          web3-eth  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-eth-accounts
+          Depends on vulnerable versions of web3-eth-contract
+          Depends on vulnerable versions of web3-eth-ens
+          Depends on vulnerable versions of web3-eth-personal
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth
+          node_modules/web3-eth
+          web3-eth-accounts  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-accounts
+          node_modules/web3-eth-accounts
+          web3-eth-contract  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-contract
+          node_modules/web3-eth-contract
+            web3-eth-ens  <=3.0.0-rc.5
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-eth-contract
+            node_modules/@truffle/interface-adapter/node_modules/web3-eth-ens
+            node_modules/web3-eth-ens
+          web3-eth-personal  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-personal
+          node_modules/web3-eth-personal
+          web3-net  1.2.0 - 3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-net
+          node_modules/web3-net
+            web3-shh  <=1.8.1
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-net
+            node_modules/@truffle/interface-adapter/node_modules/web3-shh
+            node_modules/web3-shh
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+
+got  <11.8.5
+Severity: moderate
+Got allows a redirect to a UNIX socket - https://github.com/advisories/GHSA-pfrx-2q88-qq97
+No fix available
+node_modules/got
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+No fix available
+node_modules/eth-gas-reporter/node_modules/minimatch
+
+33 vulnerabilities (21 low, 5 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ctrl + l
+
+
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npx hardhat run scripts/deploy.js --network goerli
+Downloading compiler 0.8.9
+Compiled 12 Solidity files successfully
+NFT Contract Address: 0x4B01951C70525A9391fD8c23935CB0A5be4d41CC
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npm audit
+# npm audit report
+
+debug  <3.1.0
+debug Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+No fix available
+node_modules/body-parser/node_modules/debug
+node_modules/express/node_modules/debug
+node_modules/finalhandler/node_modules/debug
+node_modules/send/node_modules/debug
+node_modules/websocket/node_modules/debug
+  body-parser  >=1.12.0
+  Depends on vulnerable versions of debug
+  node_modules/body-parser
+    express  >=3.4.5
+    Depends on vulnerable versions of body-parser
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of finalhandler
+    Depends on vulnerable versions of send
+    Depends on vulnerable versions of serve-static
+    node_modules/express
+      servify  *
+      Depends on vulnerable versions of body-parser
+      Depends on vulnerable versions of express
+      node_modules/servify
+        eth-lib  0.1.24 - 0.1.29
+        Depends on vulnerable versions of servify
+        node_modules/eth-lib
+          swarm-js  >=0.1.36
+          Depends on vulnerable versions of eth-lib
+          node_modules/swarm-js
+            web3-bzz  *
+            Depends on vulnerable versions of got
+            Depends on vulnerable versions of swarm-js
+            node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+            node_modules/web3-bzz
+              web3  1.0.0-beta.1 - 3.0.0-rc.5
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-core
+              Depends on vulnerable versions of web3-eth
+              Depends on vulnerable versions of web3-eth-personal
+              Depends on vulnerable versions of web3-net
+              Depends on vulnerable versions of web3-shh
+              node_modules/@truffle/interface-adapter/node_modules/web3
+              node_modules/web3
+                @truffle/interface-adapter  *
+                Depends on vulnerable versions of web3
+                node_modules/@truffle/interface-adapter
+                  @truffle/provider  *
+                  Depends on vulnerable versions of @truffle/interface-adapter
+                  Depends on vulnerable versions of web3
+                  node_modules/@truffle/provider
+                    solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+                    Depends on vulnerable versions of @truffle/provider
+                    node_modules/solidity-coverage
+                      @nomicfoundation/hardhat-toolbox  *
+                      Depends on vulnerable versions of hardhat-gas-reporter
+                      Depends on vulnerable versions of solidity-coverage
+                      node_modules/@nomicfoundation/hardhat-toolbox
+  finalhandler  *
+  Depends on vulnerable versions of debug
+  node_modules/finalhandler
+  send  0.3.0 - 0.18.0
+  Depends on vulnerable versions of debug
+  node_modules/send
+    serve-static  1.1.0 - 1.15.0
+    Depends on vulnerable versions of send
+    node_modules/serve-static
+  websocket  >=1.0.11
+  Depends on vulnerable versions of debug
+  node_modules/websocket
+    web3-providers-ws  <=3.0.0-rc.5
+    Depends on vulnerable versions of websocket
+    node_modules/@truffle/interface-adapter/node_modules/web3-providers-ws
+    node_modules/web3-providers-ws
+      web3-core-requestmanager  <=3.0.0-rc.5
+      Depends on vulnerable versions of web3-providers-ws
+      node_modules/@truffle/interface-adapter/node_modules/web3-core-requestmanager
+      node_modules/web3-core-requestmanager
+        web3-core  <=3.0.0-rc.5
+        Depends on vulnerable versions of web3-core-requestmanager
+        node_modules/@truffle/interface-adapter/node_modules/web3-core
+        node_modules/web3-core
+          web3-eth  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-eth-accounts
+          Depends on vulnerable versions of web3-eth-contract
+          Depends on vulnerable versions of web3-eth-ens
+          Depends on vulnerable versions of web3-eth-personal
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth
+          node_modules/web3-eth
+          web3-eth-accounts  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-accounts
+          node_modules/web3-eth-accounts
+          web3-eth-contract  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-contract
+          node_modules/web3-eth-contract
+            web3-eth-ens  <=3.0.0-rc.5
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-eth-contract
+            node_modules/@truffle/interface-adapter/node_modules/web3-eth-ens
+            node_modules/web3-eth-ens
+          web3-eth-personal  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-personal
+          node_modules/web3-eth-personal
+          web3-net  1.2.0 - 3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-net
+          node_modules/web3-net
+            web3-shh  <=1.8.1
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-net
+            node_modules/@truffle/interface-adapter/node_modules/web3-shh
+            node_modules/web3-shh
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npx hardhat run scripts/deploy.js --network goerli
+Downloading compiler 0.8.9
+Compiled 12 Solidity files successfully
+NFT Contract Address: 0x4B01951C70525A9391fD8c23935CB0A5be4d41CC
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+        ../terminal commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> cd ..
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> cd 
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> cd
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> cd 
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        nft-tut/
+        terminal commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+warning: LF will be replaced by CRLF in nft-tut/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/contracts/Lock.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/hardhat.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/scripts/deploy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/test/Lock.js.
+The file will have its original line endings in your working directory
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   nft-tut/.gitignore
+        new file:   nft-tut/README.md
+        new file:   nft-tut/contracts/Lock.sol
+        new file:   nft-tut/contracts/NFTee.sol
+        new file:   nft-tut/hardhat.config.js
+        new file:   nft-tut/package-lock.json
+        new file:   nft-tut/package.json
+        new file:   nft-tut/scripts/deploy.js
+        new file:   nft-tut/test/Lock.js
+        new file:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git commit -m "nftee"
+[trunk c984e3d] nftee
+ 10 files changed, 12549 insertions(+)
+ create mode 100644 nft-tut/.gitignore
+ create mode 100644 nft-tut/README.md
+ create mode 100644 nft-tut/contracts/Lock.sol
+ create mode 100644 nft-tut/contracts/NFTee.sol
+ create mode 100644 nft-tut/hardhat.config.js
+ create mode 100644 nft-tut/package-lock.json
+ create mode 100644 nft-tut/package.json
+ create mode 100644 nft-tut/scripts/deploy.js
+ create mode 100644 nft-tut/test/Lock.js
+ create mode 100644 terminal commands.txt
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1>
+
+
+
+github personal token classic - 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
+
+
+
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npm audit
+# npm audit report
+
+debug  <3.1.0
+debug Inefficient Regular Expression Complexity vulnerability - https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+No fix available
+node_modules/body-parser/node_modules/debug
+node_modules/express/node_modules/debug
+node_modules/finalhandler/node_modules/debug
+node_modules/send/node_modules/debug
+node_modules/websocket/node_modules/debug
+  body-parser  >=1.12.0
+  Depends on vulnerable versions of debug
+  node_modules/body-parser
+    express  >=3.4.5
+    Depends on vulnerable versions of body-parser
+    Depends on vulnerable versions of debug
+    Depends on vulnerable versions of finalhandler
+    Depends on vulnerable versions of send
+    Depends on vulnerable versions of serve-static
+    node_modules/express
+      servify  *
+      Depends on vulnerable versions of body-parser
+      Depends on vulnerable versions of express
+      node_modules/servify
+        eth-lib  0.1.24 - 0.1.29
+        Depends on vulnerable versions of servify
+        node_modules/eth-lib
+          swarm-js  >=0.1.36
+          Depends on vulnerable versions of eth-lib
+          node_modules/swarm-js
+            web3-bzz  *
+            Depends on vulnerable versions of got
+            Depends on vulnerable versions of swarm-js
+            node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+            node_modules/web3-bzz
+              web3  1.0.0-beta.1 - 3.0.0-rc.5
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-bzz
+              Depends on vulnerable versions of web3-core
+              Depends on vulnerable versions of web3-eth
+              Depends on vulnerable versions of web3-eth-personal
+              Depends on vulnerable versions of web3-net
+              Depends on vulnerable versions of web3-shh
+              node_modules/@truffle/interface-adapter/node_modules/web3
+              node_modules/web3
+                @truffle/interface-adapter  *
+                Depends on vulnerable versions of web3
+                node_modules/@truffle/interface-adapter
+                  @truffle/provider  *
+                  Depends on vulnerable versions of @truffle/interface-adapter
+                  Depends on vulnerable versions of web3
+                  node_modules/@truffle/provider
+                    solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+                    Depends on vulnerable versions of @truffle/provider
+                    node_modules/solidity-coverage
+                      @nomicfoundation/hardhat-toolbox  *
+                      Depends on vulnerable versions of hardhat-gas-reporter
+                      Depends on vulnerable versions of solidity-coverage
+                      node_modules/@nomicfoundation/hardhat-toolbox
+  finalhandler  *
+  Depends on vulnerable versions of debug
+  node_modules/finalhandler
+  send  0.3.0 - 0.18.0
+  Depends on vulnerable versions of debug
+  node_modules/send
+    serve-static  1.1.0 - 1.15.0
+    Depends on vulnerable versions of send
+    node_modules/serve-static
+  websocket  >=1.0.11
+  Depends on vulnerable versions of debug
+  node_modules/websocket
+    web3-providers-ws  <=3.0.0-rc.5
+    Depends on vulnerable versions of websocket
+    node_modules/@truffle/interface-adapter/node_modules/web3-providers-ws
+    node_modules/web3-providers-ws
+      web3-core-requestmanager  <=3.0.0-rc.5
+      Depends on vulnerable versions of web3-providers-ws
+      node_modules/@truffle/interface-adapter/node_modules/web3-core-requestmanager
+      node_modules/web3-core-requestmanager
+        web3-core  <=3.0.0-rc.5
+        Depends on vulnerable versions of web3-core-requestmanager
+        node_modules/@truffle/interface-adapter/node_modules/web3-core
+        node_modules/web3-core
+          web3-eth  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-eth-accounts
+          Depends on vulnerable versions of web3-eth-contract
+          Depends on vulnerable versions of web3-eth-ens
+          Depends on vulnerable versions of web3-eth-personal
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth
+          node_modules/web3-eth
+          web3-eth-accounts  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-accounts
+          node_modules/web3-eth-accounts
+          web3-eth-contract  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-contract
+          node_modules/web3-eth-contract
+            web3-eth-ens  <=3.0.0-rc.5
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-eth-contract
+            node_modules/@truffle/interface-adapter/node_modules/web3-eth-ens
+            node_modules/web3-eth-ens
+          web3-eth-personal  <=3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          Depends on vulnerable versions of web3-net
+          node_modules/@truffle/interface-adapter/node_modules/web3-eth-personal
+          node_modules/web3-eth-personal
+          web3-net  1.2.0 - 3.0.0-rc.5
+          Depends on vulnerable versions of web3-core
+          node_modules/@truffle/interface-adapter/node_modules/web3-net
+          node_modules/web3-net
+            web3-shh  <=1.8.1
+            Depends on vulnerable versions of web3-core
+            Depends on vulnerable versions of web3-net
+            node_modules/@truffle/interface-adapter/node_modules/web3-shh
+            node_modules/web3-shh
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> npx hardhat run scripts/deploy.js --network goerli
+Downloading compiler 0.8.9
+Compiled 12 Solidity files successfully
+NFT Contract Address: 0x4B01951C70525A9391fD8c23935CB0A5be4d41CC
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+        ../terminal commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1\nft-tut> cd ..
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> cd 
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> cd
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> cd 
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        nft-tut/
+        terminal commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+warning: LF will be replaced by CRLF in nft-tut/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/contracts/Lock.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/hardhat.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/scripts/deploy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in nft-tut/test/Lock.js.
+The file will have its original line endings in your working directory
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   nft-tut/.gitignore
+        new file:   nft-tut/README.md
+        new file:   nft-tut/contracts/Lock.sol
+        new file:   nft-tut/contracts/NFTee.sol
+        new file:   nft-tut/hardhat.config.js
+        new file:   nft-tut/package-lock.json
+        new file:   nft-tut/package.json
+        new file:   nft-tut/scripts/deploy.js
+        new file:   nft-tut/test/Lock.js
+        new file:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git commit -m "nftee"
+[trunk c984e3d] nftee
+ 10 files changed, 12549 insertions(+)
+ create mode 100644 nft-tut/.gitignore
+ create mode 100644 nft-tut/README.md
+ create mode 100644 nft-tut/contracts/Lock.sol
+ create mode 100644 nft-tut/contracts/NFTee.sol
+ create mode 100644 nft-tut/hardhat.config.js
+ create mode 100644 nft-tut/package-lock.json
+ create mode 100644 nft-tut/package.json
+ create mode 100644 nft-tut/scripts/deploy.js
+ create mode 100644 nft-tut/test/Lock.js
+ create mode 100644 terminal commands.txt
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+remote: Permission to suvrajeet01/lw3.nft1.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.nft1.git/': The requested URL returned error: 403
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+remote: Permission to suvrajeet01/lw3.nft1.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.nft1.git/': The requested URL returned error: 403
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (16/16), 109.14 KiB | 6.06 MiB/s, done.
+Total 16 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/suvrajeet01/lw3.nft1.git
+   fb9589c..c984e3d  trunk -> trunk
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ create mode 100644 terminal commands.txt
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add 
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git commit -m "terminal command and outputs"
+[trunk d57761e] terminal command and outputs
+ 1 file changed, 1609 insertions(+)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 6.51 KiB | 3.26 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/suvrajeet01/lw3.nft1.git
+   c984e3d..d57761e  trunk -> trunk
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1>  ctrl + l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ create mode 100644 terminal commands.txt
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add.
+git: 'add.' is not a git command. See 'git --help'.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git commit -m "terminal commands with outputs"
+[trunk 8d1d81a] terminal commands with outputs
+ 1 file changed, 81 insertions(+), 1 deletion(-)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/suvrajeet01/lw3.nft1.git/'
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 847 bytes | 847.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/lw3.nft1.git
+   d57761e..8d1d81a  trunk -> trunk
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> clear
