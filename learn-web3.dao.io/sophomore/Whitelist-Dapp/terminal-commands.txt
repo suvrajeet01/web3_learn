@@ -991,3 +991,49 @@ To https://github.com/suvrajeet01/web3_learn.git
    de45214..439e370  trunk -> trunk
 
 D:\web3\web3_learn>
+
+D:\web3\web3_learn>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learn-web3.dao.io/sophomore/terminal-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\web3_learn>git add .
+
+D:\web3\web3_learn>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   learn-web3.dao.io/sophomore/terminal-commands.txt
+
+
+D:\web3\web3_learn>git commit -m "terminal-commands"
+[trunk 73fb1e9] terminal-commands
+ 1 file changed, 337 insertions(+)
+
+D:\web3\web3_learn>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\web3\web3_learn>git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.25 KiB | 766.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/suvrajeet01/web3_learn.git
+   439e370..73fb1e9  trunk -> trunk
+
+D:\web3\web3_learn>
