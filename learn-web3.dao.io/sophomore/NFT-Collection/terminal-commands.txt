@@ -1,0 +1,749 @@
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>mkdir hardhat-tutorial
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>cd hardhat-tutorial
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm init --yes
+Wrote to D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial\package.json:
+
+{
+  "name": "hardhat-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm install --save-dev hardhat
+
+added 299 packages, and audited 300 packages in 1m
+
+61 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm install --save-dev @nomicfoundation/hardhat-toolbox
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 405 packages, and audited 705 packages in 1m
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm audit fix
+
+up to date, audited 705 packages in 4s
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+fix available via `npm audit fix --force`
+Will install @nomicfoundation/hardhat-toolbox@1.0.2, which is a breaking change
+node_modules/eth-gas-reporter/node_modules/flat
+node_modules/solidity-coverage/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+  node_modules/solidity-coverage/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+    node_modules/solidity-coverage/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+          @nomicfoundation/hardhat-toolbox  *
+          Depends on vulnerable versions of hardhat-gas-reporter
+          Depends on vulnerable versions of solidity-coverage
+          node_modules/@nomicfoundation/hardhat-toolbox
+      solidity-coverage  >=0.8.0-beta.0
+      Depends on vulnerable versions of mocha
+      node_modules/solidity-coverage
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+fix available via `npm audit fix --force`
+Will install @nomicfoundation/hardhat-toolbox@1.0.2, which is a breaking change
+node_modules/eth-gas-reporter/node_modules/minimatch
+node_modules/solidity-coverage/node_modules/minimatch
+
+8 vulnerabilities (5 high, 3 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating @nomicfoundation/hardhat-toolbox to 1.0.2, which is a SemVer major change.
+npm WARN deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
+npm WARN deprecated multicodec@1.0.4: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multibase@0.6.1: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@0.7.0: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multicodec@0.5.7: This module has been superseded by the multiformats module
+npm WARN deprecated cids@0.7.5: This module has been superseded by the multiformats module
+
+added 320 packages, removed 37 packages, changed 3 packages, and audited 988 packages in 1m
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+cacheable-request  <10.2.7
+Severity: high
+cacheable-request depends on http-cache-semantics, which is vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-8x6c-cv3v-vp6g
+No fix available
+node_modules/@truffle/interface-adapter/node_modules/cacheable-request
+node_modules/cacheable-request
+node_modules/swarm-js/node_modules/cacheable-request
+  got  <=12.4.1
+  Depends on vulnerable versions of cacheable-request
+  node_modules/@truffle/interface-adapter/node_modules/got
+  node_modules/got
+  node_modules/swarm-js/node_modules/got
+    swarm-js  >=0.1.42
+    Depends on vulnerable versions of got
+    node_modules/swarm-js
+    web3-bzz  *
+    Depends on vulnerable versions of got
+    Depends on vulnerable versions of got
+    node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+    node_modules/web3-bzz
+      web3  1.0.0-beta.1 - 3.0.0-rc.0
+      Depends on vulnerable versions of web3-bzz
+      Depends on vulnerable versions of web3-bzz
+      node_modules/@truffle/interface-adapter/node_modules/web3
+      node_modules/web3
+        @truffle/interface-adapter  *
+        Depends on vulnerable versions of web3
+        node_modules/@truffle/interface-adapter
+          @truffle/provider  *
+          Depends on vulnerable versions of @truffle/interface-adapter
+          Depends on vulnerable versions of web3
+          node_modules/@truffle/provider
+            solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+            Depends on vulnerable versions of @truffle/provider
+            node_modules/solidity-coverage
+              @nomicfoundation/hardhat-toolbox  *
+              Depends on vulnerable versions of hardhat-gas-reporter
+              Depends on vulnerable versions of solidity-coverage
+              node_modules/@nomicfoundation/hardhat-toolbox
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+No fix available
+node_modules/eth-gas-reporter/node_modules/minimatch
+
+15 vulnerabilities (1 moderate, 11 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npx hardhat
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+Welcome to Hardhat v2.12.7
+
+√ What do you want to do? · Create a JavaScript project
+√ Hardhat project root: · D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial
+√ Do you want to add a .gitignore? (Y/n) · y
+
+You need to install these dependencies to run the sample project:
+  npm install --save-dev "hardhat@^2.12.7" "@nomicfoundation/hardhat-toolbox@^2.0.0"
+
+Project created
+
+See the README.md file for some example tasks you can run
+
+Give Hardhat a star on Github if you're enjoying it!
+
+     https://github.com/NomicFoundation/hardhat
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm install @openzeppelin/contracts
+
+added 1 package, and audited 989 packages in 21s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+15 vulnerabilities (1 moderate, 11 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit No fix available for @nomicfoundation/hardhat-toolbox@*
+
+up to date, audited 989 packages in 27s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+cacheable-request  <10.2.7
+Severity: high
+cacheable-request depends on http-cache-semantics, which is vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-8x6c-cv3v-vp6g
+No fix available
+node_modules/@truffle/interface-adapter/node_modules/cacheable-request
+node_modules/cacheable-request
+node_modules/swarm-js/node_modules/cacheable-request
+  got  <=12.4.1
+  Depends on vulnerable versions of cacheable-request
+  node_modules/@truffle/interface-adapter/node_modules/got
+  node_modules/got
+  node_modules/swarm-js/node_modules/got
+    swarm-js  >=0.1.42
+    Depends on vulnerable versions of got
+    node_modules/swarm-js
+    web3-bzz  *
+    Depends on vulnerable versions of got
+    Depends on vulnerable versions of got
+    node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+    node_modules/web3-bzz
+      web3  1.0.0-beta.1 - 3.0.0-rc.0
+      Depends on vulnerable versions of web3-bzz
+      Depends on vulnerable versions of web3-bzz
+      node_modules/@truffle/interface-adapter/node_modules/web3
+      node_modules/web3
+        @truffle/interface-adapter  *
+        Depends on vulnerable versions of web3
+        node_modules/@truffle/interface-adapter
+          @truffle/provider  *
+          Depends on vulnerable versions of @truffle/interface-adapter
+          Depends on vulnerable versions of web3
+          node_modules/@truffle/provider
+            solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+            Depends on vulnerable versions of @truffle/provider
+            node_modules/solidity-coverage
+              @nomicfoundation/hardhat-toolbox  *
+              Depends on vulnerable versions of hardhat-gas-reporter
+              Depends on vulnerable versions of solidity-coverage
+              node_modules/@nomicfoundation/hardhat-toolbox
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+No fix available
+node_modules/eth-gas-reporter/node_modules/minimatch
+
+15 vulnerabilities (1 moderate, 11 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm audit fix
+
+up to date, audited 989 packages in 4s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+cacheable-request  <10.2.7
+Severity: high
+cacheable-request depends on http-cache-semantics, which is vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-8x6c-cv3v-vp6g
+No fix available
+node_modules/@truffle/interface-adapter/node_modules/cacheable-request
+node_modules/cacheable-request
+node_modules/swarm-js/node_modules/cacheable-request
+  got  <=12.4.1
+  Depends on vulnerable versions of cacheable-request
+  node_modules/@truffle/interface-adapter/node_modules/got
+  node_modules/got
+  node_modules/swarm-js/node_modules/got
+    swarm-js  >=0.1.42
+    Depends on vulnerable versions of got
+    node_modules/swarm-js
+    web3-bzz  *
+    Depends on vulnerable versions of got
+    Depends on vulnerable versions of got
+    node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+    node_modules/web3-bzz
+      web3  1.0.0-beta.1 - 3.0.0-rc.0
+      Depends on vulnerable versions of web3-bzz
+      Depends on vulnerable versions of web3-bzz
+      node_modules/@truffle/interface-adapter/node_modules/web3
+      node_modules/web3
+        @truffle/interface-adapter  *
+        Depends on vulnerable versions of web3
+        node_modules/@truffle/interface-adapter
+          @truffle/provider  *
+          Depends on vulnerable versions of @truffle/interface-adapter
+          Depends on vulnerable versions of web3
+          node_modules/@truffle/provider
+            solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+            Depends on vulnerable versions of @truffle/provider
+            node_modules/solidity-coverage
+              @nomicfoundation/hardhat-toolbox  *
+              Depends on vulnerable versions of hardhat-gas-reporter
+              Depends on vulnerable versions of solidity-coverage
+              node_modules/@nomicfoundation/hardhat-toolbox
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+No fix available
+node_modules/eth-gas-reporter/node_modules/minimatch
+
+15 vulnerabilities (1 moderate, 11 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm install dotenv
+
+added 1 package, and audited 990 packages in 14s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+15 vulnerabilities (1 moderate, 11 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npm audit fix
+
+up to date, audited 990 packages in 12s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+cacheable-request  <10.2.7
+Severity: high
+cacheable-request depends on http-cache-semantics, which is vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-8x6c-cv3v-vp6g
+No fix available
+node_modules/@truffle/interface-adapter/node_modules/cacheable-request
+node_modules/cacheable-request
+node_modules/swarm-js/node_modules/cacheable-request
+  got  <=12.4.1
+  Depends on vulnerable versions of cacheable-request
+  node_modules/@truffle/interface-adapter/node_modules/got
+  node_modules/got
+  node_modules/swarm-js/node_modules/got
+    swarm-js  >=0.1.42
+    Depends on vulnerable versions of got
+    node_modules/swarm-js
+    web3-bzz  *
+    Depends on vulnerable versions of got
+    Depends on vulnerable versions of got
+    node_modules/@truffle/interface-adapter/node_modules/web3-bzz
+    node_modules/web3-bzz
+      web3  1.0.0-beta.1 - 3.0.0-rc.0
+      Depends on vulnerable versions of web3-bzz
+      Depends on vulnerable versions of web3-bzz
+      node_modules/@truffle/interface-adapter/node_modules/web3
+      node_modules/web3
+        @truffle/interface-adapter  *
+        Depends on vulnerable versions of web3
+        node_modules/@truffle/interface-adapter
+          @truffle/provider  *
+          Depends on vulnerable versions of @truffle/interface-adapter
+          Depends on vulnerable versions of web3
+          node_modules/@truffle/provider
+            solidity-coverage  0.7.0-beta.0 - 0.8.0-rc.test.0
+            Depends on vulnerable versions of @truffle/provider
+            node_modules/solidity-coverage
+              @nomicfoundation/hardhat-toolbox  *
+              Depends on vulnerable versions of hardhat-gas-reporter
+              Depends on vulnerable versions of solidity-coverage
+              node_modules/@nomicfoundation/hardhat-toolbox
+
+flat  <5.0.1
+Severity: critical
+flat vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-2j2x-2gpw-g8fm
+No fix available
+node_modules/eth-gas-reporter/node_modules/flat
+  yargs-unparser  <=1.6.3
+  Depends on vulnerable versions of flat
+  node_modules/eth-gas-reporter/node_modules/yargs-unparser
+    mocha  5.1.0 - 9.2.1
+    Depends on vulnerable versions of minimatch
+    Depends on vulnerable versions of yargs-unparser
+    node_modules/eth-gas-reporter/node_modules/mocha
+      eth-gas-reporter  >=0.2.1
+      Depends on vulnerable versions of mocha
+      node_modules/eth-gas-reporter
+        hardhat-gas-reporter  *
+        Depends on vulnerable versions of eth-gas-reporter
+        node_modules/hardhat-gas-reporter
+
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+No fix available
+node_modules/eth-gas-reporter/node_modules/minimatch
+
+15 vulnerabilities (1 moderate, 11 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npx hardhat compile
+Error HH606: The project cannot be compiled, see reasons below.
+
+The Solidity version pragma statement in these files doesn't match any of the configured compilers in your config. Change the pragma or configure additional compiler versions in your hardhat config.
+
+  * contracts/Lock.sol (^0.8.9)
+
+To learn more, run the command again with --verbose
+
+Read about compiler configuration at https://hardhat.org/config
+
+
+For more info go to https://hardhat.org/HH606 or run Hardhat with --show-stack-traces
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npx hardhat compile
+Downloading compiler 0.8.4
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:200:30:
+    |
+200 |     ) internal view returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:223:30:
+    |
+223 |     ) internal pure returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Compiled 16 Solidity files successfully
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npx hardhat compile
+Nothing to compile
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npx hardhat run scripts/deploy.js --network goerli
+Crypto Devs Contract Address: 0x70184F89E4b9C2AD8C1FE3f97B8DDF54F104e296
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>cd ..
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>npx create-next-app@latest
+√ What is your project named? ... my-app
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Would you like to use experimental `app/` directory with this project? ... No / Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app.
+
+Using npm.
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- @next/font
+
+
+added 18 packages, and audited 19 packages in 32s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Initializing project with template: default
+
+Success! Created my-app at D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
+
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>cd my-app
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 3.3s (165 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 5.9s (194 modules)
+Terminate batch job (Y/N)? y
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app>npm install web3modal
+
+added 58 packages, and audited 77 packages in 19s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app>npm install ethers@5
+
+added 45 packages, and audited 122 packages in 18s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 785 ms (165 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 2.2s (322 modules)
+Terminate batch job (Y/N)? y
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app>
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app>cd ../../
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NFT-Collection/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>
