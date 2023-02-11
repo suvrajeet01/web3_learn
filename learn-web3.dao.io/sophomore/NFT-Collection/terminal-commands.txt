@@ -747,3 +747,313 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
 D:\web3\web3_learn\learn-web3.dao.io\sophomore>
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git add .
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/contracts/Lock.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/hardhat.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/scripts/deploy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/test/Lock.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/jsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/next.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/_app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/_document.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/api/hello.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/styles/Home.module.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in learn-web3.dao.io/sophomore/NFT-Collection/my-app/styles/globals.css.
+The file will have its original line endings in your working directory
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   NFT-Collection/LearnWeb3DAO NFT-Collection main my-app-public_cryptodevs.zip
+        new file:   NFT-Collection/Whitelist Contract address.txt
+        new file:   NFT-Collection/hardhat-tutorial/.gitignore
+        new file:   NFT-Collection/hardhat-tutorial/README.md
+        new file:   NFT-Collection/hardhat-tutorial/constants/index.js
+        new file:   NFT-Collection/hardhat-tutorial/contracts/CryptoDevs.sol
+        new file:   NFT-Collection/hardhat-tutorial/contracts/IWhitelist.sol
+        new file:   NFT-Collection/hardhat-tutorial/contracts/Lock.sol
+        new file:   NFT-Collection/hardhat-tutorial/hardhat.config.js
+        new file:   NFT-Collection/hardhat-tutorial/package-lock.json
+        new file:   NFT-Collection/hardhat-tutorial/package.json
+        new file:   NFT-Collection/hardhat-tutorial/scripts/deploy.js
+        new file:   NFT-Collection/hardhat-tutorial/test/Lock.js
+        new file:   NFT-Collection/my-app/.gitignore
+        new file:   NFT-Collection/my-app/README.md
+        new file:   NFT-Collection/my-app/constants/index.js
+        new file:   NFT-Collection/my-app/jsconfig.json
+        new file:   NFT-Collection/my-app/next.config.js
+        new file:   NFT-Collection/my-app/package-lock.json
+        new file:   NFT-Collection/my-app/package.json
+        new file:   NFT-Collection/my-app/pages/_app.js
+        new file:   NFT-Collection/my-app/pages/_document.js
+        new file:   NFT-Collection/my-app/pages/api/hello.js
+        new file:   NFT-Collection/my-app/pages/index.js
+        new file:   NFT-Collection/my-app/public/cryptodevs/0.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/1.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/10.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/11.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/12.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/13.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/14.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/15.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/16.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/17.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/18.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/19.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/2.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/3.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/4.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/5.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/6.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/7.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/8.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/9.svg
+        new file:   NFT-Collection/my-app/public/favicon.ico
+        new file:   NFT-Collection/my-app/public/next.svg
+        new file:   NFT-Collection/my-app/public/thirteen.svg
+        new file:   NFT-Collection/my-app/public/vercel.svg
+        new file:   NFT-Collection/my-app/styles/Home.module.css
+        new file:   NFT-Collection/my-app/styles/globals.css
+        new file:   NFT-Collection/terminal-commands.txt
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git commit -m
+error: switch `m' requires a value
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   NFT-Collection/LearnWeb3DAO NFT-Collection main my-app-public_cryptodevs.zip
+        new file:   NFT-Collection/Whitelist Contract address.txt
+        new file:   NFT-Collection/hardhat-tutorial/.gitignore
+        new file:   NFT-Collection/hardhat-tutorial/README.md
+        new file:   NFT-Collection/hardhat-tutorial/constants/index.js
+        new file:   NFT-Collection/hardhat-tutorial/contracts/CryptoDevs.sol
+        new file:   NFT-Collection/hardhat-tutorial/contracts/IWhitelist.sol
+        new file:   NFT-Collection/hardhat-tutorial/contracts/Lock.sol
+        new file:   NFT-Collection/hardhat-tutorial/hardhat.config.js
+        new file:   NFT-Collection/hardhat-tutorial/package-lock.json
+        new file:   NFT-Collection/hardhat-tutorial/package.json
+        new file:   NFT-Collection/hardhat-tutorial/scripts/deploy.js
+        new file:   NFT-Collection/hardhat-tutorial/test/Lock.js
+        new file:   NFT-Collection/my-app/.gitignore
+        new file:   NFT-Collection/my-app/README.md
+        new file:   NFT-Collection/my-app/constants/index.js
+        new file:   NFT-Collection/my-app/jsconfig.json
+        new file:   NFT-Collection/my-app/next.config.js
+        new file:   NFT-Collection/my-app/package-lock.json
+        new file:   NFT-Collection/my-app/package.json
+        new file:   NFT-Collection/my-app/pages/_app.js
+        new file:   NFT-Collection/my-app/pages/_document.js
+        new file:   NFT-Collection/my-app/pages/api/hello.js
+        new file:   NFT-Collection/my-app/pages/index.js
+        new file:   NFT-Collection/my-app/public/cryptodevs/0.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/1.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/10.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/11.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/12.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/13.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/14.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/15.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/16.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/17.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/18.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/19.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/2.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/3.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/4.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/5.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/6.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/7.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/8.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/9.svg
+        new file:   NFT-Collection/my-app/public/favicon.ico
+        new file:   NFT-Collection/my-app/public/next.svg
+        new file:   NFT-Collection/my-app/public/thirteen.svg
+        new file:   NFT-Collection/my-app/public/vercel.svg
+        new file:   NFT-Collection/my-app/styles/Home.module.css
+        new file:   NFT-Collection/my-app/styles/globals.css
+        new file:   NFT-Collection/terminal-commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   NFT-Collection/terminal-commands.txt
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git add .
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   NFT-Collection/LearnWeb3DAO NFT-Collection main my-app-public_cryptodevs.zip
+        new file:   NFT-Collection/Whitelist Contract address.txt
+        new file:   NFT-Collection/hardhat-tutorial/.gitignore
+        new file:   NFT-Collection/hardhat-tutorial/README.md
+        new file:   NFT-Collection/hardhat-tutorial/constants/index.js
+        new file:   NFT-Collection/hardhat-tutorial/contracts/CryptoDevs.sol
+        new file:   NFT-Collection/hardhat-tutorial/contracts/IWhitelist.sol
+        new file:   NFT-Collection/hardhat-tutorial/contracts/Lock.sol
+        new file:   NFT-Collection/hardhat-tutorial/hardhat.config.js
+        new file:   NFT-Collection/hardhat-tutorial/package-lock.json
+        new file:   NFT-Collection/hardhat-tutorial/package.json
+        new file:   NFT-Collection/hardhat-tutorial/scripts/deploy.js
+        new file:   NFT-Collection/hardhat-tutorial/test/Lock.js
+        new file:   NFT-Collection/my-app/.gitignore
+        new file:   NFT-Collection/my-app/README.md
+        new file:   NFT-Collection/my-app/constants/index.js
+        new file:   NFT-Collection/my-app/jsconfig.json
+        new file:   NFT-Collection/my-app/next.config.js
+        new file:   NFT-Collection/my-app/package-lock.json
+        new file:   NFT-Collection/my-app/package.json
+        new file:   NFT-Collection/my-app/pages/_app.js
+        new file:   NFT-Collection/my-app/pages/_document.js
+        new file:   NFT-Collection/my-app/pages/api/hello.js
+        new file:   NFT-Collection/my-app/pages/index.js
+        new file:   NFT-Collection/my-app/public/cryptodevs/0.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/1.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/10.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/11.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/12.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/13.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/14.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/15.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/16.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/17.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/18.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/19.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/2.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/3.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/4.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/5.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/6.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/7.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/8.svg
+        new file:   NFT-Collection/my-app/public/cryptodevs/9.svg
+        new file:   NFT-Collection/my-app/public/favicon.ico
+        new file:   NFT-Collection/my-app/public/next.svg
+        new file:   NFT-Collection/my-app/public/thirteen.svg
+        new file:   NFT-Collection/my-app/public/vercel.svg
+        new file:   NFT-Collection/my-app/styles/Home.module.css
+        new file:   NFT-Collection/my-app/styles/globals.css
+        new file:   NFT-Collection/terminal-commands.txt
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git commit -m "nft-collection"
+[trunk 33ae62b] nft-collection
+ 51 files changed, 17843 insertions(+)
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/LearnWeb3DAO NFT-Collection main my-app-public_cryptodevs.zip
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/Whitelist Contract address.txt
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/.gitignore
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/README.md
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/constants/index.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/contracts/CryptoDevs.sol
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/contracts/IWhitelist.sol
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/contracts/Lock.sol
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/hardhat.config.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/package-lock.json
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/package.json
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/scripts/deploy.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/test/Lock.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/.gitignore
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/README.md
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/constants/index.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/jsconfig.json
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/next.config.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/package-lock.json
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/package.json
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/_app.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/_document.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/api/hello.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/index.js
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/0.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/1.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/10.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/11.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/12.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/13.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/14.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/15.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/16.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/17.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/18.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/19.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/2.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/3.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/4.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/5.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/6.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/7.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/8.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/cryptodevs/9.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/favicon.ico
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/next.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/thirteen.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/public/vercel.svg
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/styles/Home.module.css
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/styles/globals.css
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/terminal-commands.txt
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git push
+Enumerating objects: 71, done.
+Counting objects: 100% (71/71), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (63/63), done.
+Writing objects: 100% (68/68), 168.29 KiB | 5.61 MiB/s, done.
+Total 68 (delta 20), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (20/20), completed with 1 local object.
+To https://github.com/suvrajeet01/web3_learn.git
+   0a2faca..33ae62b  trunk -> trunk
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore>
