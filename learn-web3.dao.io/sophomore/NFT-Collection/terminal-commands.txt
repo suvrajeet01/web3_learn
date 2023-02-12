@@ -2245,3 +2245,747 @@ To https://github.com/suvrajeet01/web3_learn.git
    65c7288..cbda1df  trunk -> trunk
 
 D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv\lw3.io_nft-collection\NFT-Collection\hardhat-tutorial>npx hardhat run scripts/deploy.js --network goerli
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:200:30:
+    |
+200 |     ) internal view returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:223:30:
+    |
+223 |     ) internal pure returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Compiled 16 Solidity files successfully
+Crypto Devs Contract Address: 0x46e2aE1Fb230B242F6610D352D84bcE4bE642737
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\suv\lw3.io_nft-collection\NFT-Collection\hardhat-tutorial>npx hardhat run scripts/deploy.js --network goerli
+Crypto Devs Contract Address: 0x0536Feea5287f586Ad96ed6a119D311423b2623a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\suv\lw3.io_nft-collection\NFT-Collection\hardhat-tutorial>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv\lw3.io_nft-collection\NFT-Collection\hardhat-tutorial>npx hardhat run scripts/deploy.js --network goerli
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:200:30:
+    |
+200 |     ) internal view returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:223:30:
+    |
+223 |     ) internal pure returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Compiled 16 Solidity files successfully
+Crypto Devs Contract Address: 0x46e2aE1Fb230B242F6610D352D84bcE4bE642737
+
+C:\suv\lw3.io_nft-collection\NFT-Collection\hardhat-tutorial>npx hardhat run scripts/deploy.js --network goerli
+Crypto Devs Contract Address: 0x0536Feea5287f586Ad96ed6a119D311423b2623a
+
+C:\suv\lw3.io_nft-collection\NFT-Collection\hardhat-tutorial>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   constants/index.js
+        modified:   ../my-app/constants/index.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../my-app/pages/api/[tokenId].js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\suv\lw3.io_nft-collection\NFT-Collection\hardhat-tutorial>cd ..
+
+C:\suv\lw3.io_nft-collection\NFT-Collection>cd ..
+
+C:\suv\lw3.io_nft-collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   NFT-Collection/hardhat-tutorial/constants/index.js
+        modified:   NFT-Collection/my-app/constants/index.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app\constants>git diff
+diff --git a/learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/constants/index.js b/learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/constants/index.js
+index c505b4c..b051e17 100644
+--- a/learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/constants/index.js
++++ b/learn-web3.dao.io/sophomore/NFT-Collection/hardhat-tutorial/constants/index.js
+@@ -1,6 +1,6 @@
+ // Address of the Whitelist Contract that you deployed
+ const WHITELIST_CONTRACT_ADDRESS = "0x311E94c8b84df2D66175ff2fA893d361D42f556E";
+ // URL to extract Metadata for a Crypto Dev NFT
+-const METADATA_URL = "https://nft-collection-sneh1999.vercel.app/api/";
++const METADATA_URL = "https://nft-collection-five-eosin.vercel.app/api/";
+
+ module.exports = { WHITELIST_CONTRACT_ADDRESS, METADATA_URL };
+\ No newline at end of file
+diff --git a/learn-web3.dao.io/sophomore/NFT-Collection/my-app/constants/index.js b/learn-web3.dao.io/sophomore/NFT-Collection/my-app/constants/index.js
+index dbaab2b..69fa8cb 100644
+--- a/learn-web3.dao.io/sophomore/NFT-Collection/my-app/constants/index.js
++++ b/learn-web3.dao.io/sophomore/NFT-Collection/my-app/constants/index.js
+@@ -581,4 +581,4 @@ export const abi =[
+       "type": "receive"
+     }
+   ]
+-export const NFT_CONTRACT_ADDRESS = "0x70184F89E4b9C2AD8C1FE3f97B8DDF54F104e296"
+\ No newline at end of file
++export const NFT_CONTRACT_ADDRESS = "0x0536Feea5287f586Ad96ed6a119D311423b2623a"
+\ No newline at end of file
+diff --git a/learn-web3.dao.io/sophomore/NFT-Collection/terminal-commands.txt b/learn-web3.dao.io/sophomore/NFT-Collection/terminal-commands.txt
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app\constants>
+
+
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app\constants>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../hardhat-tutorial/constants/index.js
+        modified:   index.js
+        modified:   ../../terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../pages/api/[tokenId].js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app\constants>
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\my-app\constants>cd ../..
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hardhat-tutorial/constants/index.js
+        modified:   my-app/constants/index.js
+        modified:   terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        my-app/pages/api/[tokenId].js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git restore hardhat-tutorial/constants/index.js
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   my-app/constants/index.js
+        modified:   terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        my-app/pages/api/[tokenId].js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git restore my-app/constants/index.js
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        my-app/pages/api/[tokenId].js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>cd hardhat-tutorial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>npx hardhat run scripts/deploy.js --network goerli
+Crypto Devs Contract Address: 0x4Ae2a6DA43907593859A9fE62ce3c71a7189AD6a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>cd ..
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv\lw3.io_nft-collection\NFT-Collection>git diff
+diff --git a/NFT-Collection/hardhat-tutorial/constants/index.js b/NFT-Collection/hardhat-tutorial/constants/index.js
+index c505b4c..b051e17 100644
+--- a/NFT-Collection/hardhat-tutorial/constants/index.js
++++ b/NFT-Collection/hardhat-tutorial/constants/index.js
+@@ -1,6 +1,6 @@
+ // Address of the Whitelist Contract that you deployed
+ const WHITELIST_CONTRACT_ADDRESS = "0x311E94c8b84df2D66175ff2fA893d361D42f556E";
+ // URL to extract Metadata for a Crypto Dev NFT
+-const METADATA_URL = "https://nft-collection-sneh1999.vercel.app/api/";
++const METADATA_URL = "https://nft-collection-five-eosin.vercel.app/api/";
+
+ module.exports = { WHITELIST_CONTRACT_ADDRESS, METADATA_URL };
+\ No newline at end of file
+diff --git a/NFT-Collection/my-app/constants/index.js b/NFT-Collection/my-app/constants/index.js
+index dbaab2b..69fa8cb 100644
+--- a/NFT-Collection/my-app/constants/index.js
++++ b/NFT-Collection/my-app/constants/index.js
+@@ -581,4 +581,4 @@ export const abi =[
+       "type": "receive"
+     }
+   ]
+-export const NFT_CONTRACT_ADDRESS = "0x70184F89E4b9C2AD8C1FE3f97B8DDF54F104e296"
+\ No newline at end of file
++export const NFT_CONTRACT_ADDRESS = "0x0536Feea5287f586Ad96ed6a119D311423b2623a"
+\ No newline at end of file
+
+C:\suv\lw3.io_nft-collection\NFT-Collection>
+
+
+
+C:\suv\lw3.io_nft-collection\NFT-Collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hardhat-tutorial/constants/index.js
+        modified:   my-app/constants/index.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        my-app/pages/api/[tokenId].js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\suv\lw3.io_nft-collection\NFT-Collection>
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
