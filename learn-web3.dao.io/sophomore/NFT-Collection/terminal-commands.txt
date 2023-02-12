@@ -2925,6 +2925,94 @@ Crypto Devs Contract Address: 0x4Ae2a6DA43907593859A9fE62ce3c71a7189AD6a
 D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection\hardhat-tutorial>cd ..
 
 
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Whitelist Contract address.txt
+        modified:   hardhat-tutorial/constants/index.js
+        modified:   my-app/constants/index.js
+        modified:   terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        my-app/pages/api/[tokenId].js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git add .
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git commit -m "nft-collection-opensea"
+[trunk f7d3929] nft-collection-opensea
+ 5 files changed, 770 insertions(+), 4 deletions(-)
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/api/[tokenId].js
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git push
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (16/16), 3.80 KiB | 973.00 KiB/s, done.
+Total 16 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/suvrajeet01/web3_learn.git
+   3884a78..f7d3929  trunk -> trunk
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Whitelist Contract address.txt
+        modified:   hardhat-tutorial/constants/index.js
+        modified:   my-app/constants/index.js
+        modified:   terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        my-app/pages/api/[tokenId].js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git add .
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git commit -m "nft-collection-opensea"
+[trunk f7d3929] nft-collection-opensea
+ 5 files changed, 770 insertions(+), 4 deletions(-)
+ create mode 100644 learn-web3.dao.io/sophomore/NFT-Collection/my-app/pages/api/[tokenId].js
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git push
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (16/16), 3.80 KiB | 973.00 KiB/s, done.
+Total 16 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/suvrajeet01/web3_learn.git
+   3884a78..f7d3929  trunk -> trunk
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
 
 
 
