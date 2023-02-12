@@ -3017,6 +3017,64 @@ D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
 
 
 
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 5A08-02FE
+
+ Directory of D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection
+
+12-02-2023  04:26    <DIR>          .
+12-02-2023  00:52    <DIR>          ..
+12-02-2023  03:48    <DIR>          hardhat-tutorial
+12-02-2023  04:24           289,422 LearnWeb3DAO NFT-Collection main my-app-public_cryptodevs.zip
+12-02-2023  04:30    <DIR>          my-app
+12-02-2023  14:16           115,335 terminal-commands.txt
+12-02-2023  14:11               246 Whitelist Contract address.txt
+               3 File(s)        405,003 bytes
+               4 Dir(s)  241,815,425,024 bytes free
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git add .
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal-commands.txt
+
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git commit -m "terminal-commmands"
+[trunk 2891052] terminal-commmands
+ 1 file changed, 88 insertions(+)
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 830 bytes | 830.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/suvrajeet01/web3_learn.git
+   f7d3929..2891052  trunk -> trunk
+
+D:\web3\web3_learn\learn-web3.dao.io\sophomore\NFT-Collection>
+
+
+
+
 
 
 
